@@ -77,7 +77,7 @@
 1. **Install Python 3.10+** and **FFmpeg**.
 2. **Clone the Repo**:
    ```bash
-   git clone https://github.com/NotOlivia0/AnonXMusic
+   git clone https://github.com/NotRahat0/Olivia-Music-Bot.git
    cd Olivia-music-bot
    ```
 3. **Install Dependencies**:
