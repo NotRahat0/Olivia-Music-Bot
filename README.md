@@ -1,4 +1,4 @@
-# 🎶 Olivia Music Bot v3.5
+:Markdown# 🎶 Olivia Music Bot v3.5
 
 <p align="center">
   <img src="https://graph.org/file/4a3c025eb747fa403c00d-d20b0fd9bd5b2bcc33.jpg" alt="Olivia Music Logo" width="300">
@@ -77,45 +77,18 @@
 1. **Install Python 3.10+** and **FFmpeg**.
 2. **Clone the Repo**:
    ```bash
-   git clone https://github.com/NotRahat0/Olivia-Music-Bot.git
+   git clone [https://github.com/NotRahat0/Olivia-Music-Bot.git](https://github.com/NotRahat0/Olivia-Music-Bot.git)
    cd Olivia-Music-Bot
-   ```
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Configure `.env`**: Create a `.env` file with your credentials.
-5. **Start the Bot**:
-   ```bash
-   python3 -m anony
-   ```
-
----
-
-## ⚙️ Configuration (Environment Variables)
-
-| Variable | Description |
-|----------|-------------|
-| `API_ID` | Your Telegram API ID from [my.telegram.org](https://my.telegram.org) |
-| `API_HASH` | Your Telegram API Hash |
-| `BOT_TOKEN` | Your Telegram Bot Token from [@BotFather](https://t.me/BotFather) |
-| `OWNER_ID` | Your unique Telegram User ID |
-| `SESSION` | A Pyrogram String Session (v2) |
-| `LOGGER_ID` | ID of a private group for bot logs |
-| `WEB_PASSWORD`| Password for the Web Dashboard (default: `Olivia`) |
-
----
-
-## 👤 Owner & Support
-- **Owner**: [@delete_ee](https://t.me/delete_ee)
-- **Support Channel**: [@delete_ee7](https://t.me/delete_tee7)
-- **Dev Support**: [@delete_ee8](https://t.me/delete_ee8)
-
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <b>Built with ❤️ by Olivia</b>
-</p>
+Install Dependencies:Bashpip install -r requirements.txt
+Configure .env: Create a .env file with your credentials.Start the Bot:Bashpython3 -m anony
+📱 Termux Deployment (Full Process)টার্মাক্সে কোনো ডেটা না হারিয়ে শুরু থেকে শেষ পর্যন্ত হোস্ট করার সম্পূর্ণ গাইড:প্যাকেজ ইন্সটল এবং আপডেট:Bashpkg update && pkg upgrade -y
+pkg install python git ffmpeg nodejs -y
+বট ফাইল ডাউনলোড:Bashgit clone [https://github.com/NotRahat0/Olivia-Music-Bot.git](https://github.com/NotRahat0/Olivia-Music-Bot.git)
+cd Olivia-Music-Bot
+এনভায়রনমেন্ট এবং ডিপেন্ডেন্সি:Bashpython -m venv venv
+source venv/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+কনফিগারেশন ফাইল তৈরি:Bashnano .env
+(আপনার API ID, HASH এবং TOKEN বসিয়ে Ctrl+O, Enter, Ctrl+X চাপুন)বট রান করা:Bashpython3 -m anony
+⚙️ Configuration (Environment Variables)VariableDescriptionAPI_IDYour Telegram API ID from my.telegram.orgAPI_HASHYour Telegram API HashBOT_TOKENYour Telegram Bot Token from @BotFatherOWNER_IDYour unique Telegram User IDSESSIONA Pyrogram String Session (v2)LOGGER_IDID of a private group for bot logsWEB_PASSWORDPassword for the Web Dashboard (default: Olivia)👤 Owner & SupportOwner: @delete_eeSupport Channel: @delete_ee7Dev Support: @delete_ee8📜 LicenseThis project is licensed under the MIT License.<p align="center"><b>Built with ❤️ by Olivia</b></p>
